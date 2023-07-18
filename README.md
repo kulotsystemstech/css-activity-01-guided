@@ -46,7 +46,7 @@ Without any styles, our template will resemble our HTML activity outputs.
 ![html-template](assets/css-01--03-html-template.jpg)
 
 
-We simply define the necessary HTML layout tags:
+We will simply use the HTML layout tags to define the relevant parts of our webpage:
 
 ```html
 <!DOCTYPE html>
