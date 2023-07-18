@@ -1,5 +1,5 @@
 ## CSS | Activity #1 (Guided): Grid Layout, Colors, and Fonts
-In this activity, we will create a webpage called **Jokosphere** with the following content:
+In this activity, we will create a webpage called **Gigglepads** with the following content:
 
 ![final-output](assets/css-01--01-final-output.jpg)
 
@@ -53,7 +53,7 @@ We simply define the necessary HTML layout tags:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jokosphere</title>
+    <title>Gigglepads</title>
 </head>
 <body>
 <!-- Container (Grid) -->
@@ -61,9 +61,9 @@ We simply define the necessary HTML layout tags:
 
     <!-- Header -->
     <header>
-        <h1>Jokosphere</h1>
+        <h1>Gigglepads</h1>
         <p>
-            Enter the Jokosphere, where laughter knows no bounds!
+            Enter the Gigglepads, where laughter knows no bounds!
             Discover an endless array of hilarious jokes
             submitted by our vibrant community,
             to brighten your day and tickle your funny bone.
@@ -194,7 +194,7 @@ We simply define the necessary HTML layout tags:
 
     <!-- Footer -->
     <footer>
-        <small>Copyright &copy; 2023 Jokosphere. All rights reserved.</small>
+        <small>Copyright &copy; 2023 Gigglepads. All rights reserved.</small>
     </footer>
 
 </div>
