@@ -1,0 +1,8 @@
+.idea
+.vscode
+.DS_Store
+/src/index-final.html
+/src/index-dev.html
+/src/index-layout.html
+/src/index-scratch.html
+/src/css/index-final.css
