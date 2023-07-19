@@ -503,3 +503,9 @@ but can expand *"automatically"* based on their content.
         
         ...
 ```
+
+##### Grid Layout Output
+After implementing our desired grid layout,
+we should see the following output:
+
+![grid-layout](assets/css-01--05-grid-layout.jpg)
