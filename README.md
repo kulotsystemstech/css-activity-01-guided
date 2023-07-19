@@ -1,4 +1,4 @@
-## CSS | Activity #1 (Guided): Grid Layout, Fonts, Whitespaces, and Colors
+## CSS | Activity #1 (Guided): Grid Layout, Fonts, Colors, and Whitespaces
 In this activity, we will create a webpage called **Gigglepads** with the following content:
 
 ![final-output](assets/css-01--01-final-output.jpg)
@@ -63,7 +63,6 @@ We will simply use the HTML layout tags to define the relevant parts of our webp
     <header>
         <h1>Gigglepads</h1>
         <p>
-            Enter the Gigglepads, where laughter knows no bounds!
             Discover an endless array of hilarious jokes
             submitted by our vibrant community,
             to brighten your day and tickle your funny bone.
