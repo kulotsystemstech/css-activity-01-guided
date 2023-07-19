@@ -462,7 +462,8 @@ Therefore, we need to set its `grid-column-start` to `1` and `grid-column-end` t
 
 ```html
     ...
-    
+
+    <!-- Footer -->
     <footer style="
         grid-row-start: 5;
         grid-column-start: 1;
@@ -490,7 +491,8 @@ but can expand *"automatically"* based on their content.
 
 ```html
         ...
-        
+
+        <!-- Jokes Section (Grid) -->
         <section style="
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
