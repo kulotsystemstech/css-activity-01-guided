@@ -74,34 +74,54 @@ We will simply use the HTML layout tags to define the relevant parts of our webp
         <h3>CATEGORIES</h3>
         <ul>
             <li>
-                <a href="#">Animal Antics</a>
+                <a href="#">
+                    Animal Antics
+                </a>
             </li>
             <li>
-                <a href="#">Dark Humor</a>
+                <a href="#">
+                    Dark Humor
+                </a>
             </li>
             <li>
-                <a href="#">Funny Fails</a>
+                <a href="#">
+                    Funny Fails
+                </a>
             </li>
             <li>
-                <a href="#">Knock-Knock Jokes</a>
+                <a href="#">
+                    Knock-Knock Jokes
+                </a>
             </li>
             <li>
-                <a href="#">Political Satire</a>
+                <a href="#">
+                    Political Satire
+                </a>
             </li>
             <li>
-                <a href="#">Sarcastic Wit</a>
+                <a href="#">
+                    Sarcastic Wit
+                </a>
             </li>
             <li>
-                <a href="#">Sports Comedy</a>
+                <a href="#">
+                    Sports Comedy
+                </a>
             </li>
             <li>
-                <a href="#">Tech Humor</a>
+                <a href="#">
+                    Tech Humor
+                </a>
             </li>
             <li>
-                <a href="#">Unexpected Punchlines</a>
+                <a href="#">
+                    Unexpected Punchlines
+                </a>
             </li>
             <li>
-                <a href="#">Wholesome Laughter</a>
+                <a href="#">
+                    Wholesome Laughter
+                </a>
             </li>
         </ul>
     </nav>
@@ -121,7 +141,9 @@ We will simply use the HTML layout tags to define the relevant parts of our webp
     <!-- Main Content -->
     <main>
         <h2>Tech Humor</h2>
-        <p>Where Geeks and Laughter Collide!</p>
+        <p>
+            Where Geeks and Laughter Collide!
+        </p>
 
         <!-- Jokes Section (Grid) -->
         <section>
@@ -509,3 +531,141 @@ After implementing our desired grid layout,
 we should see the following output:
 
 ![grid-layout](assets/css-01--05-grid-layout.jpg)
+
+---
+
+#### 2. Fonts
+Let's style the fonts on our webpage.
+
+##### Font Family
+The default font we see in our output is **Times New Roman**,
+which belongs to the **serif** font-family.
+Here's a table of available font-families:
+
+| Generic Font Family | Description                                                                                                                                         | 	Font Examples                                  |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| **serif**           | Fonts with small decorative lines at the ends of letters. They are generally considered more traditional and formal.                                | Times New Roman, Georgia, Palatino, Courier New |
+| **sans-serif**      | Fonts without decorative lines at the ends of letters. They are considered more modern and clean-looking.                                           | Arial, Helvetica, Verdana, Tahoma               |                                                 |
+| **monospace**       | Fonts where each character takes up the same amount of horizontal space. They are often used for coding or displaying text in a fixed-width format. | Courier New, Consolas, Monaco, Liberation Mono  |
+| **cursive**         | Fonts that mimic cursive handwriting with connected and flowing strokes. They have a more casual and informal appearance.                           | Comic Sans MS, Brush Script, Pacifico           |
+| **fantasy**         | Decorative fonts that don't fall into any specific category. They often have unique and creative designs.                                           | Impact, Papyrus, Chiller, Freestyle Script      |
+
+To set the font family for an HTML element, we use the `font-family` CSS property.
+For instance, our current default font family on the webpage is
+```css
+font-family: 'Times New Roman', serif;
+```
+
+<small>
+    <b>NOTE: </b>
+    <p>
+        Use quotation marks for font names with multiple words.
+    </p>
+    <p>
+        Specifying multiple fonts in the <code>font-family</code> declaration ensures that if the first font is not available,
+        the browser can automatically switch to the next one in the list.
+        This ensures consistent and readable text on different devices.
+    </p>
+</small>
+
+Let's switch the font family of our entire webpage to **Arial**,
+which belongs to the **sans-serif** generic font family,
+by applying the style to the `<body>` tag.
+
+```html
+...
+
+<body style="font-family: Arial, sans-serif">
+
+...
+```
+
+***TODO:***
+Find the **"Gigglepads"** `<h1>` in the `<header>`
+and use the **'Arial Black'** font for it.
+
+##### Font Weight
+In HTML, we use the `<b>` tag to make text **bold**.
+But in CSS, we can achieve the same effect
+by using the `font-weight` property and setting its value to `bold`.
+Other `font-weight` values include `normal` or `lighter`.
+
+Let's make the **"Tech Humor"** link appear `bold` in the `<nav>` element
+by setting its `font-weight` property.
+
+```html
+            ...
+            
+            <li>
+                <a href="#"
+                   style="font-weight: bold"
+                >
+                    Tech Humor
+                </a>
+            </li>
+            
+            ...
+```
+
+##### Font Style
+In HTML, we use the `<i>` tag to make text *italic*.
+But in CSS, we can achieve the same effect
+by using the `font-style` property and setting its value to `italic`.
+Other `font-style` values include `normal` or `oblique`.
+
+Let's make **"Where Geeks and Laughter Collide!"**
+paragraph appear `italic` in the `<main>` element
+by setting its `font-style` property.
+
+```html
+        ...
+        
+        <p style="font-style: italic">
+            Where Geeks and Laughter Collide!
+        </p>
+        
+        ...
+```
+
+##### Text Decoration
+In HTML, we use the `<u>` tag to make text <u>underlined</u>.
+But in CSS, we can achieve the same effect
+by using the `text-decoration` property and setting its value to `underline`.
+Other `text-decoration` values include `line-through`, `overline`, or `none`.
+
+We don't have any specific text to underline in our webpage.
+Although the links in the `<nav>` element are underlined by default.
+We can remove the underline by setting their `text-decoration` to `none`.
+
+*Example:*
+```html
+            ...
+            
+            <li>
+                <a
+                    href="#"
+                    style="text-decoration: none"
+                >
+                    Animal Antics
+                </a>
+            </li>
+            
+            ...
+```
+***TODO:***
+Remove the underline from the remaining navigation links.
+
+##### Text Align
+In HTML, we use the `align="center"` attribute to center text in an element.
+But this attribute is already deprecated in favor of CSS styles such as the `text-align`
+property, which also accepts a value `center`. Other values
+include `left`, `justify`, or `right`.
+
+***TODO:***
+Add `text-align: center;` style to the `<footer>` element.
+
+##### Fonts Output
+After applying some CSS styles to fonts,
+we should see the following output:
+
+![fonts](assets/css-01--06-fonts.jpg)
