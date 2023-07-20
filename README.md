@@ -627,6 +627,25 @@ by setting its `font-style` property.
         ...
 ```
 
+***TODO:***
+Find all elements containing usernames like `@ComedyChamp` and `@JesterJokes`,
+then apply the italic font style to each of them.
+
+##### Font Size
+To change the size of text,
+we use the CSS property `font-size`
+and provide an amount with a unit of measurement.
+For now, we'll use `px` for **pixels**.
+
+*Example:*
+```css
+font-size: 12px;
+```
+
+***TODO:***
+Find all elements containing usernames like `@ComedyChamp` and `@JesterJokes`,
+then apply `12px` font size to each of them.
+
 ##### Text Decoration
 In HTML, we use the `<u>` tag to make text <u>underlined</u>.
 But in CSS, we can achieve the same effect
