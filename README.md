@@ -607,6 +607,9 @@ by setting its `font-weight` property.
             ...
 ```
 
+***TODO:***
+Make the text in the **"SUBMIT YOUR JOKES"** button bold.
+
 ##### Font Style
 In HTML, we use the `<i>` tag to make text *italic*.
 But in CSS, we can achieve the same effect
@@ -684,7 +687,69 @@ include `left`, `justify`, or `right`.
 Add `text-align: center;` style to the `<footer>` element.
 
 ##### Fonts Output
-After applying some CSS styles to fonts,
+After applying some CSS styles related to fonts,
 we should see the following output:
 
 ![fonts](assets/css-01--06-fonts.jpg)
+
+---
+
+#### 3. Colors
+Colors in CSS are used to define the appearance of elements,
+such as text, backgrounds, borders, and more.
+CSS allows us to specify colors using various formats,
+providing a wide range of color choices.
+
+Here is a table summarizing the three commonly-used
+color value formats in CSS:
+
+|    | Color Format | Description                                                | Example          |
+|----|--------------|------------------------------------------------------------|------------------|
+| 1. | Named Colors | Predefined color names in CSS.                             | red, blue, green |
+| 2. | Hexadecimal  | Represents colors using six-digit codes.                   | #ff0000, #00ff00 |
+| 3. | RGB          | Represents colors using the red, green, and blue channels. | rgb(255, 0, 0)   |
+
+##### Text Color
+To change the text color of an element,
+we use the `color` property and provide a valid color value.
+
+*Example:*
+```css
+color: green;
+```
+***TODO:***
+Change the text color in the **"SUBMIT YOUR JOKES"** button to `green`.
+
+##### Background Color
+To change the background color of an element,
+we use the `background-color` property and provide a valid color value.
+
+*Example:*
+```css
+background-color: #ffd1dc;
+```
+
+***TODO:***
+Apply the following background colors
+to each `<article>` element that contains a joke:
+
+| Joke        | Background Color |
+|-------------|:----------------:|
+| **Joke #1** |    `#ffd1dc`     |
+| **Joke #2** |    `#98ff98`     |
+| **Joke #3** |    `#87ceeb`     |
+| **Joke #4** |    `#e6e6fa`     |
+| **Joke #5** |    `#ffdab9`     |
+| **Joke #6** |    `#fff44f`     |
+| **Joke #7** |    `#b2ffff`     |
+| **Joke #8** |    `#ffff99`     |
+| **Joke #9** |    `#afeeee`     |
+
+##### Colors Output
+After applying some colors,
+we should see the following output:
+
+![fonts](assets/css-01--07-colors.jpg)
+
+---
+
