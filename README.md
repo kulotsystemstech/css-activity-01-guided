@@ -643,12 +643,12 @@ For now, we'll use `px` for **pixels**.
 
 *Example:*
 ```css
-font-size: 12px;
+font-size: 10px;
 ```
 
 ***TODO:***
 Find all elements containing usernames like `@ComedyChamp` and `@JesterJokes`,
-then apply `12px` font size to each of them.
+then apply `10px` font size to each of them.
 
 ##### Text Decoration
 In HTML, we use the `<u>` tag to make text <u>underlined</u>.
@@ -760,3 +760,93 @@ content that are not visible to the user
 but play a crucial role in organizing the layout
 and improving readability.
 
+##### Padding
+Padding refers to the space between the content of an element and its border.
+It is used to create space and increase the distance between the content and the element's edges,
+providing visual separation and improving the overall layout.
+
+To set the padding for an element in CSS,
+we use the `padding` property and specify a value
+with a unit of measurement, such as `px` for **pixels**.
+
+Padding can be applied to all four sides of an element at once.
+
+*Example:*
+```css
+padding: 15px;
+```
+
+Padding can also be applied to individual sides (top, right, bottom, and left)
+of an element.
+
+*Example:*
+```css
+padding-top: 8px;
+padding-right: 10px;
+padding-bottom: 8px;
+padding-left: 10px;
+```
+
+***TODO:***
+1. Apply a `padding` of `15px` to every element with the following tag:
+   - `<header>`
+   - `<nav>`
+   - `<aside>`
+   - `<main>`
+   - `<footer>`
+   - `<article>`
+   
+2. Apply a `padding` of `0` to the `<ul>` element inside `<nav>`.
+   Also, add the style `"list-style-type: none;"`
+   to hide the bullets in its list elements.
+
+3. Apply a `padding` of `4px` to each `<li>` element inside `<nav>`.
+
+4. Apply a `padding` of `6px` to the `<button>` element.
+   Also, add the style `"width: 100%;"` for it to occupy the entire
+   width of its container.
+
+##### Margin
+Margin refers to the space outside the borders of an element.
+It creates space between the element and its neighboring elements.
+Margins are used to control the spacing between elements,
+providing visual separation and influencing the overall layout of a webpage. 
+
+Margin can be applied to all four sides of an element at once.
+
+*Example:*
+```css
+margin: 15px;
+```
+
+Margin can also be applied to individual sides (top, right, bottom, and left)
+of an element.
+
+*Example:*
+```css
+margin-top: 10px;
+margin-right: 15px;
+margin-bottom: 10px;
+margin-left: 15px;
+```
+
+***TODO:***
+1. Apply a `margin-top` of `0` to each of the following elements:
+   - `<h1>` **"Gigglepads"**  inside `<header>`
+   - `<h3>` **"CATEGORIES"** inside `<nav>`
+   - `<h3>` **"CONTRIBUTE"** inside `<aside>`
+   - `<h2>` **"Tech Humor"** inside `<main>`
+
+2. Apply a `margin-bottom` of `0` to:
+   - `<h2>` **"Tech Humor"** inside `<main>`
+
+3. Apply a `margin-top` of `4px` to:
+   - `<p>` ***"Where Geeks and Laughter Collide!"*** inside `<main>`
+
+4. Apply a `margin` of `0` to the `<ul>` element inside `<nav>`.
+
+---
+
+After completing all the *TODO*s,
+please verify that your output matches the one provided
+at the beginning of this activity.
