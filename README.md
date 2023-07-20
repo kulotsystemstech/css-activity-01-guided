@@ -633,6 +633,7 @@ by setting its `font-style` property.
 ***TODO:***
 Find all elements containing usernames like `@ComedyChamp` and `@JesterJokes`,
 then apply the italic font style to each of them.
+Do the same to the joke punchlines such as *"It left its Windows open!"*
 
 ##### Font Size
 To change the size of text,
@@ -752,4 +753,10 @@ we should see the following output:
 ![fonts](assets/css-01--07-colors.jpg)
 
 ---
+
+#### 4. Whitespaces
+Whitespaces refer to the empty spaces within a webpage's
+content that are not visible to the user
+but play a crucial role in organizing the layout
+and improving readability.
 
