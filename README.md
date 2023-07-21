@@ -159,7 +159,6 @@ We will simply use the HTML layout tags to define the relevant parts of our webp
                 <p>@JesterJokes</p>
                 <h4>Why did the computer go to the doctor?</h4>
                 <p>Because it had a bad case of the byte-itis!</p>
-
             </article>
 
             <!-- Joke #3 -->
