@@ -53,6 +53,7 @@ We will simply use the HTML layout tags to define the relevant parts of our webp
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Gigglepads</title>
 </head>
 <body>
